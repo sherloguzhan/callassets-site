@@ -77,6 +77,10 @@
     .hero .lede { font-size: 19px; color: var(--panel-muted); max-width: 540px; }
     .hero-cta { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 34px; }
     .hero .eyebrow { color: var(--accent-400); }
+    .backed { margin-top: 26px; font-family: var(--mono); font-size: 12px; letter-spacing: .08em; color: var(--panel-muted); }
+    .backed a { color: var(--accent-400); text-decoration: none; border-bottom: 1px solid rgba(77,194,172,.4); }
+    .backed a:hover { border-bottom-color: currentColor; }
+    footer a { color: var(--accent-400); text-decoration: none; }
 
     .console { position: relative; border: 1px solid var(--panel-line); background: rgba(5,24,21,.55); padding: 26px; backdrop-filter: blur(4px); }
     .corner { position: absolute; width: 12px; height: 12px; border-color: var(--accent-400); border-style: solid; border-width: 0; }
@@ -197,6 +201,7 @@
               <a class="btn btn-primary" href="#contact">Talk to us →</a>
               <a class="btn btn-ghost" href="#platform">Explore the platform</a>
             </div>
+            <p class="backed">Backed by <a href="https://call-energy.com/" target="_blank" rel="noopener">CALL</a>, a renewable energy investor with a 2&nbsp;GW pipeline.</p>
           </div>
 
           <div class="console" aria-label="Illustrative portfolio view">
@@ -342,7 +347,7 @@
 
   <footer>
     <div class="wrap">
-      <span>© 2026 CallAssets · Renewable Asset Intelligence</span>
+      <span>© 2026 CallAssets · Renewable Asset Intelligence · Backed by <a href="https://call-energy.com/" target="_blank" rel="noopener">CALL</a></span>
       <span class="mono">callassets.tech</span>
     </div>
   </footer>
